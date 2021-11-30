@@ -173,12 +173,6 @@ button {
   transition: var(--slowTransition);
 }
 
-.fall {
-  transform:rotate(20deg) translateZ(120px);
-  opacity: 0;
-  transition: var(--vSlowTransition);
-}
-
 @media (max-width: 600px) {
   .container > .flex {
     flex-direction: column;
