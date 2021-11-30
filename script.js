@@ -56,11 +56,8 @@ function completeTodo(event) {
   }
 
   if (target.classList.contains("trash-button")) {
-    parent.classList.add("fall");
-    parent.addEventListener("transitionend", (e) => {
       parent.remove();
       removeFromLocalStorage(todoListItem.innerText)
-    });
   }
 }
 
